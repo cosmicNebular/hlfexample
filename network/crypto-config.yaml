@@ -1,0 +1,12 @@
+OrdererOrgs:
+  - Name: hlfexample
+    Domain: hf.hlfexample.io
+    Specs:
+      - Hostname: orderer
+PeerOrgs:
+  - Name: Org1
+    Domain: org1.hf.hlfexample.io
+    Template:
+      Count: 2
+    Users:
+      Count: 1
